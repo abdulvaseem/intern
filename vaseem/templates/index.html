@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8"/>
+<title></title>
+</head>
+<body>
+<form method="post" enctype=multipart/form-data>
+
+  
+
+  <div class="container">
+<p>please enter the details of column name as per csv file</p>
+    <label for="fname"><b>first name :</b></label>
+    <input type="text" placeholder="Enter fname as per csv " name="fname" required><br>
+<label for="lname"><b>last name :</b></label>
+    <input type="text" placeholder="Enter lname as per csv " name="lname" required><br>
+<label for="Company"><b>Company  : </b></label>
+    <input type="text" placeholder="Enter Company as per csv " name="company" required><br>
+<label for="Designation"><b>Designation  :</b></label>
+    <input type="text" placeholder="Enter designation as per csv " name="designation" required><br>
+<label for="City"><b>City   :</b></label>
+    <input type="text" placeholder="Enter City as per csv " name="City" required><br>
+
+<label for="Zip"><b>Zip : </b></label>
+    <input type="text" placeholder="Enter Zip as per csv " name="Zip" required><br>
+
+<label for="Date of Birth"><b>Date of Birth :    </b></label>
+    <input type="text" placeholder="Enter DOB as per csv " name="DOB" required><br>
+
+<label for="sdate"><b>Start Date : </b></label>
+    <input type="text" placeholder="Enter Start Date as per csv " name="Start Date" required><br>
+
+    <label for="end date"><b>End Date : </b></label>
+    <input type="text" placeholder="Enter End Date" name="Edate" required>
+<br>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+<br>    </br>
+
+ 
+<input type="file" name="file"/>
+<input type ="submit"/>
+<form method="get" action="C:\Users\w10\newproj\vaseem\uploads\test_dataset.xlsx">
+<button type="submit">Download!</button>
+</form>
+</form>
+<p>
+{{message}}
+</p>
+</body>
+</html>
